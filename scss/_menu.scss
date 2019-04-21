@@ -82,6 +82,7 @@
       transform: translate3d(0, 0, 0);
     }
     .portrait {
+      margin: 5px 0;
       width: 200px;
       height: 200px;
       background: url("../img/portrait.jpg");
@@ -106,7 +107,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 13px 0;
-    font-weight: 300;
+    font-weight: 350;
     text-decoration: none;
     color: set-text-color($primary-color);
     @include easeout;
